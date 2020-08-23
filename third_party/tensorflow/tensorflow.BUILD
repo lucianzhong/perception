@@ -9,9 +9,9 @@ cc_library(
         "include/**/*.h",
         "include/**/*",
     ]),
-    copts = [
-        "-std=c++14",
-    ],
+    # copts = [
+    #     "-std=c++14",
+    # ],
     includes = [
         "include",
         "include/third_party/eigen3",
